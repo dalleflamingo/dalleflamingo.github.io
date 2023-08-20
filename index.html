@@ -116,7 +116,7 @@
               
               <!-- PDF Link. -->
               <span class="link-block">
-                <a target="_blank" href="file.pdf"
+                <a target="_blank" href="https://arxiv.org/abs/2212.12249"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -138,7 +138,7 @@
 
             <!-- Video Link. -->
             <span class="link-block">
-              <a target="_blank" href="https://"
+              <a target="_blank" href="https://dalleflamingo.github.io"
                  class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                     <i class="fab fa-youtube"></i>
@@ -178,7 +178,7 @@
         </div>
         <br>
         <h2 class="subtitle has-text-centered">
-        <span class="dperact">DALLE(SD) and FLAMINGO(BLIP)</span> Talks to Each Other.
+        <span class="dperact">DALLE(SD) and FLAMINGO(BLIP)</span> Talks to Each Other. <br> We explore two types of large-scale multimodal generative models, image-to-text and text-to-image. The image-to-text model generates abstract descriptions of an image, whereas the text-to-image model decodes the text into low-level visual pixel features. These two models are closely related but their relationship is little understood. In this work, we study if large multimodal generative models understand each other. Specifically, if Flamingo describes an image in text, can DALLE reconstruct an image similar to the input image from the text?
         </h2>
       </div>
     </div>
@@ -275,16 +275,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Multimodal research for image and text understanding and generation has made extensive advances with the development of 
-            large-scale image captioning models, e.g., BLIP, and text-to-image generative models, e.g., Stable Diffusion (SD). 
-            An interesting question worth exploring in this domain is whether BLIP and SD understand each other. 
-            To study this question, we propose a reconstruction task where BLIP generates a description for a given image and SD uses this description as input to synthesize a new image. 
-            We argue that these models understand each other if the generated image is similar to the given image. 
-            Specifically, we study the relationship between the quality of the image reconstruction and that of the text generation. 
-            We find that an optimal description of an image is the one that gives rise to a generated image similar to the original one. 
-            Similarly, we design a reversed reconstruction task and find that the best image representation for text is the one that generated the original text. 
-            These findings motivate us to propose a unified framework to finetune the text-to-image and image-to-text models. Concretely, the reconstruction part forms a regularization loss to guide the tuning of the models. 
-            Extensive experiments on multiple datasets with different image captioning and image generation models validate our findings and demonstrate the effectiveness of our proposed unified framework.
+            The field of multimodal research focusing on the comprehension and creation of both images and text has witnessed significant strides. This progress is exemplified by the emergence of sophisticated models dedicated to image captioning at scale, such as the notable Flamingo model and text-to-image generative models, with DALL-E serving as a prominent example. An interesting question worth exploring in this domain is whether Flamingo and DALL-E understand each other. To study this question, we propose a reconstruction task where Flamingo generates a description for a given image and DALL-E uses this description as input to synthesize a new image. We argue that these models understand each other if the generated image is similar to the given image. Specifically, we study the relationship between the quality of the image reconstruction and that of the text generation. We find that an optimal description of an image is one that gives rise to a generated image similar to the original one. The finding motivates us to propose a unified framework to finetune the text-to-image and image-to-text models. Concretely, the reconstruction part forms a regularization loss to guide the tuning of the models. Extensive experiments on multiple datasets with different image captioning and image generation models validate our findings and demonstrate the effectiveness of our proposed unified framework. As DALL-E and Flamingo are not publicly available, we use Stable Diffusion and BLIP in the remaining work.
           </p>
         </div>
       </div>
