@@ -17,51 +17,6 @@
     gtag('config', 'G-FV4ZJ9PVSV');
   </script>
 
-  <!-- <script>
-
-    function updateInteractive() {
-      var task = document.getElementById("interative-menu").value;
-
-      console.log("interactive", task)
-
-      // if task does not contain the string "towel"
-      if (task.indexOf("towel") == -1) {
-        var video = document.getElementById("interactive-video");
-        video.src = "media/videos/" + 
-                    task + 
-                    ".mp4"
-        video.play();
-
-        var html = document.getElementById("interactive-html-1");
-        html.src = "media/interactive/" + 
-                    task + 
-                    ".html"
-
-        // hide the second iframe container
-        var iframeContainer2 = document.getElementById("second-iframe-container");
-        iframeContainer2.style.display = "none";
-      } else {
-        var video = document.getElementById("interactive-video");
-        video.src = "media/videos/hang-towel.mp4"
-        video.play();
-
-        var html1 = document.getElementById("interactive-html-1");
-        html1.src = "media/interactive/hang-towel-1.html"
-
-        // show and set the source for the second iframe
-        var html2 = document.getElementById("interactive-html-2");
-        html2.src = "media/interactive/hang-towel-2.html"
-
-        // show the second iframe container
-        var iframeContainer2 = document.getElementById("second-iframe-container");
-        iframeContainer2.style.display = "block";
-      }
-    }
-
-
-
-  </script> -->
-
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
@@ -143,7 +98,7 @@
                 <span class="icon">
                     <i class="fab fa-youtube"></i>
                 </span>
-                <span>Video</span>
+                <span>Video (Coming Soon)</span>
               </a>
             </span>
 
@@ -178,94 +133,13 @@
         </div>
         <br>
         <h2 class="subtitle has-text-centered">
-        We explore two types of large-scale multimodal generative models, image-to-text and text-to-image. The image-to-text model generates abstract descriptions of an image, whereas the text-to-image model decodes the text into low-level visual pixel features. These two models are closely related but their relationship is little understood. In this work, we study if large multimodal generative models understand each other. Specifically, if Flamingo describes an image in text, can DALLE reconstruct an image similar to the input image from the text?
+          <b>VL-Alignment: How can we be sure that a text-to-image model has the same understanding of what a bird is as an image-to-text model?</b>
+          <br>We explore two types of large-scale multimodal generative models, image-to-text and text-to-image. The image-to-text model generates abstract descriptions of an image, whereas the text-to-image model decodes the text into low-level visual pixel features. These two models are closely related but their relationship is little understood. In this work, we study if large multimodal generative models understand each other. Specifically, if Flamingo describes an image in text, can DALLE reconstruct an image similar to the input image from the text?
         </h2>
       </div>
     </div>
   </div>
 </section>
-
-<!-- 
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/take-out-the-toaster-and-put-it-on-the-wooden-plate.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/close-top-drawer-dist.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/sort-trash-to-tray-dist.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item">
-           <video poster="" autoplay muted loop height="100%">
-             <source src="media/videos/open-bottle.mp4"
-                     type="video/mp4">
-           </video>
-         </div>
-        <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/turn-on-the-lamp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/sweep-the-trash-into-the-dustpan.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/set-up-the-utensils-for-my-pasta.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/unplug-charger.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-       <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/get-napkin.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-       <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/hang-towel.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-       <div class="item">
-          <video poster="" autoplay muted loop height="100%">
-            <source src="media/videos/measure-apple.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<h2 class="subtitle has-text-centered">
-</br>
-  VoxPoser can <b>zero-shot synthesize</b> trajectories for real-world manipulation tasks with an <b>open-set</b> of free-form language instructions and an <b>open-set</b> of objects.
-</h2> -->
-
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -299,65 +173,79 @@
 
 </section>
 
-
-<!-- 
 <section class="section">
   <div class="container is-max-widescreen">
 
     <div class="rows">
-      <h2 class="title is-3">Execution under Disturbances</h2>
-      
+      <h2 class="title is-3">Experiment</h2>
+
+      <h2 class="title is-5">Image-to-Text-to-Image</h2>
       <p class="content has-text-justified">
-        Because the language model output stays the same throughout the task, we can cache its output and re-evaluate the generated code using closed-loop visual feedback, which enables fast replanning using MPC. This enables VoxPoser to be robust to online disturbances.
+        The quality of a caption can be evaluated by assessing the image reconstruction produced by a text-to-image model. The best text for an image is one that leads to the most accurate reconstruction of the original image
       </p>
-      
-      <div class="columns">
-        <div class="column has-text-centered">
-          <video id="dist1"
-            controls
-            muted
-            autoplay
-            loop
-            width="99%">
-            <source src="media/videos/sort-trash-to-tray-dist.mp4" 
-            type="video/mp4">
-          </video>
-          <p style="text-align:center">
-            "Sort the paper trash into the blue tray."
-          </p>
-        </div>
-    
-        <div class="column has-text-centered">
-          <video id="dist2"
-            controls
-            muted
-            autoplay
-            loop
-            width="99%">
-            <source src="media/videos/close-top-drawer-dist.mp4" 
-            type="video/mp4">
-          </video>
-          <p style="text-align:center">
-            "Close the top drawer."
-          </p>
-        </div>
-  </div>
-  </div>
-</section> -->
 
+      <p class="content has-text-justified">
+      <b>Method</b>: The generated image is compared with the input image using a similarity function based on CLIP image embeddings.
+      Human-annotated captions serve as ground truth representations of the input image to evaluate the quality of the generated caption.      
+      </p>
 
-<section class="section">
-  <div class="container is-max-widescreen">
-
-    <div class="rows">
-      <h2 class="title is-3">Findings</h2>
       <div style="text-align: center;">
-        <img src="images/Page3.png" class="interpolation-image" style="width: 120%; height: auto;"/>
+        <img src="images/Page4.png" class="interpolation-image" style="width: 60%; height: auto;"/>
       </div>
       <br>
-      <p class="content has-text-justified">
-        Qualitative examples of reconstruction tasks. The left side shows image reconstruction for the given input image of a bird. Two samples are shown with their generated images, ranked by the image similarity. The right side shows text reconstruction whereas the first sample gives a high-quality image as well as high-quality text reconstruction.
+
+      <b>Evaluation</b>: The result with three similarity and four caption metrics on the NoCaps dataset suggests that regardless of the similarity or evaluation metric, better image reconstruction always leads to better captions.
       </p>
+      <br>
+
+      <div style="text-align: center;">
+        <img src="images/Page5.png" class="interpolation-image" style="width: 60%; height: auto;"/>
+      </div>
+      <br>
+      
+      <p class="content has-text-justified">
+      <b>Qualitative examples</b> of reconstruction tasks. The figure shows image reconstruction for the given input image of a bird. Two samples are shown with their generated images, ranked by the image similarity.
+      </p>
+
+      <div style="text-align: center;">
+        <img src="images/Page3.png" class="interpolation-image" style="width: 50%; height: auto;"/>
+      </div>
+    </br>
+
+
+      <h2 class="title is-5">Text-to-Image-to-Text</h2>
+      <p class="content has-text-justified">
+        The quality of a generated image can be evaluated by assessing the text reconstruction produced by a caption model. The best image for an image is one that leads to the most accurate reconstruction of the original text.
+      </p>
+
+      <p class="content has-text-justified">
+        <b>Method</b>: The generated image is compared with the input image using a similarity function based on CLIP image embeddings.
+        Human-annotated captions serve as ground truth representations of the input image to evaluate the quality of the generated caption.      
+        </p>
+  
+        <div style="text-align: center;">
+          <img src="images/Page6.png" class="interpolation-image" style="width: 60%; height: auto;"/>
+        </div>
+        <br>
+  
+        <b>Evaluation</b>: The result with three similarity and four caption metrics on the NoCaps dataset suggests that regardless of the similarity or evaluation metric, better image reconstruction always leads to better captions.
+        </p>
+        <br>
+  
+        <div style="text-align: center;">
+          <img src="images/Page7.png" class="interpolation-image" style="width: 60%; height: auto;"/>
+        </div>
+        <br>
+        
+        <p class="content has-text-justified">
+        <b>Qualitative examples</b> of reconstruction tasks. The figure shows text reconstruction for the given input image of a text. Two samples are shown with their generated texts, ranked by the image similarity. 
+        </p>
+  
+        <div style="text-align: center;">
+          <img src="images/Page8.png" class="interpolation-image" style="width: 50%; height: auto;"/>
+        </div>
+  
+
     </div>
   </div>
 </section>
@@ -368,14 +256,29 @@
   <div class="container is-max-widescreen">
 
     <div class="rows">
-      <h2 class="title is-3">Method</h2>
+      <h2 class="title is-3">Cycle Finetuning</h2>
+      <p class="content has-text-justified">
+      <b>A Finetuning Framework</b> We propose a unified framework to enhance both the image-to-text and text-to-image models: finetuning the image-to-text model using a reconstruction loss computed by a text-to-image model as regularization.
+      </p>
       <div style="text-align: center;">
         <img src="images/Page2.png" class="interpolation-image" style="width: 120%; height: auto;"/>
       </div>
+
       <br>
       <p class="content has-text-justified">
-        Illustration of our proposed finetuning framework. We propose a reconstruction pipeline starting from an image (left) and a reconstruction pipeline starting from the text (right). Input images and text shown at the bottom (dashed boxes) are only used during training and will be dropped during inference. For illustration proposes, we omit the VAE in SD without changing the principles. Causal masking is a technique for language modeling during training. The diffusion step denotes adding noise to the input image.
+        <b>Improvement:</b> Image-to-Text Captioning task
+        </p>
+        <div style="text-align: center;">
+          <img src="images/Page9.png" class="interpolation-image" style="width: 120%; height: auto;"/>
+        </div>
+
+        <b>Improvement:</b> Text-to-Image Generation task
       </p>
+      <br>
+      <div style="text-align: center;">
+        <img src="images/Page10.png" class="interpolation-image" style="width: 50%; height: auto;"/>
+      </div>
+    
     </div>
   </div>
 </section>
@@ -388,7 +291,7 @@
     <pre><code>@article{li2022dall,
       title={Do DALL-E and Flamingo Understand Each Other?},
       author={Li, Hang and Gu, Jindong and Koner, Rajat and Sharifzadeh, Sahand and Tresp, Volker},
-      journal={ICCV},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
       year={2023}
     }</code></pre>
   </div>
